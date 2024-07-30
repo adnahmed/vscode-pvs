@@ -73,7 +73,7 @@ The following example demonstrates:
 
 Try the following actions in VSCode-PVS:
 
-1. Edit function `abs` in `helloworld.pvs` so as to change the return type to `posreal`, where posnat is defined as `posreal: TYPE = { r: real | r >=0 }`. The specification should look as follows:
+1. Edit function `abs` in `helloworld.pvs` so as to change the return type to `posreal`, where posreal is defined as `posreal: TYPE = { r: real | r >=0 }`. The specification should look as follows:
     ```pvs
     helloworld: THEORY
       BEGIN 
